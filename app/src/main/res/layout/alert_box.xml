@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:paddingLeft="5dp"
+    android:background="@drawable/alert_box_edit_text"
+    android:hint="Start typing..."
+    android:id="@+id/edittext"
+    ></EditText>
+
+    <Button
+        android:id="@+id/button_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:background="@color/colorPrimary"
+        android:foregroundGravity="center_horizontal"
+        android:text="Add Task"
+        android:textColor="#ffffff" />
+</RelativeLayout>
